@@ -1,4 +1,4 @@
-<?= $this->extend('templates/header') ?>
+<?= $this->include('templates/header') ?>
 
 <div class="container">
     <h2 class="mb-4">Keranjang Belanja Anda</h2>
@@ -60,4 +60,4 @@
 
 </div>
 
-<?= $this->extend('templates/footer') ?>
+<?= $this->include('templates/footer') ?>
