@@ -1,4 +1,4 @@
-<?= $this->extend('templates/header') ?>
+<?= $this->include('templates/header') ?>
 
 <div class="container">
     <div class="d-flex justify-content-between align-items-center mb-4">
@@ -27,4 +27,4 @@
     </div>
 </div>
 
-<?= $this->extend('templates/footer') ?>
+<?= $this->include('templates/footer') ?>
